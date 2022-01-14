@@ -11,4 +11,5 @@ Repositório criado para o desafio de projeto.
 git init
 git add .
 git commit -m "first commit"
+git remote add origin https://github.com/dawidferreira/Netflix-inicio.git
 git push -u origin master
