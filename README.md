@@ -23,8 +23,13 @@ Atualizando o repositório
 Para atualizar seu repositório, novamente vá para o diretório onde está seu projeto e execute os comandos abaixo:
 
 git init
+
 git status
+
 git add .
+
 git commit -m "novos arquivos inseridos"
+
 git push -u origin main
+
 Feito!!!
