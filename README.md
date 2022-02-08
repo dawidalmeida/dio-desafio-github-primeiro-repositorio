@@ -33,3 +33,17 @@ git commit -m "novos arquivos inseridos"
 git push -u origin main
 
 Feito!!!
+
+pull é sempre a abordagem certa, mas uma exceção pode ser quando você está tentando converter um sistema de arquivos sem Git em um repositório Github. Lá você teria que forçar o primeiro commit.
+
+git init
+
+git add README.md
+
+git add .
+
+git commit -m "first commit"
+
+git remote add origin https://github.com/userName/repoName.git
+
+git push --force origin master
